@@ -31,7 +31,7 @@ namespace Modul10.Home
         public override int GetHashCode()
         {
             return Name.GetHashCode()*Age.GetHashCode();
-        }
+        }  
         public virtual void Print()
         {
             Console.WriteLine(ToString());

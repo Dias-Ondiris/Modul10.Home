@@ -15,7 +15,8 @@ namespace Modul10.Home
             Student student1 = Student.RandomStudent();
             Student student2 = Student.RandomStudent();
             Student student3 = Student.RandomStudent();
-            
+            Student student4 = Student.RandomStudent();
+
             teacher1.Students.Add(student1);
             teacher1.Students.Add(student2);
             teacher1.Students.Add(student3);
